@@ -1,2 +1,2 @@
 # snakejs
-Snake video game implementation in JavaScript
+Snake video game implementation in JavaScript.

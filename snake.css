@@ -1,0 +1,62 @@
+html { height: 100%; padding: 0; margin: 0; }
+
+body {
+  background: black;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.border {
+  border: 10px solid silver;
+  display: inline-block;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  width: 20px;
+  height: 20px;
+}
+
+.body {
+  background: white;
+}
+
+.head {
+  background: red;
+}
+
+.food {
+  background: green;
+}
+
+#score {
+  color: white;
+  text-align: center;
+  padding: 3px;
+  height: 1em;
+}
+
+#gameOverMessage {
+  color: white;
+  border: 1px solid red;
+  width: 200px;
+  line-height: 50px;
+  position: relative;
+  margin: auto;
+  top: -350px;
+  background: black;
+  display: none;
+}
+
+.visible {
+  display: block!important;
+}
