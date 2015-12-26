@@ -8,8 +8,8 @@ window.onload = function() {
   var keyMap = {
     "37": [-1,  0], // left
     "38": [ 0, -1], // up
-    "39": [ 1,  0], // down
-    "40": [ 0,  1]  // right
+    "39": [ 1,  0], // right
+    "40": [ 0,  1]  // down
   }
 
   // A game state.
